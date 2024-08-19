@@ -109,8 +109,8 @@ importers:
         specifier: 20.11.20
         version: 20.11.20
       tsx:
-        specifier: 4.7.1
-        version: 4.7.1
+        specifier: 4.17.0
+        version: 4.17.0
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -772,8 +772,8 @@ importers:
         specifier: 20.11.20
         version: 20.11.20
       tsx:
-        specifier: 4.7.1
-        version: 4.7.1
+        specifier: 4.17.0
+        version: 4.17.0
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -14095,7 +14095,7 @@ packages:
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-typescript@3.6.1)(eslint@7.32.0)
       fast-glob: 3.3.2
-      get-tsconfig: 4.7.2
+      get-tsconfig: 4.7.6
       is-core-module: 2.13.1
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -14118,7 +14118,7 @@ packages:
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@7.2.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.57.0)
       fast-glob: 3.3.2
-      get-tsconfig: 4.7.2
+      get-tsconfig: 4.7.6
       is-core-module: 2.13.1
       is-glob: 4.0.3
     transitivePeerDependencies:
@@ -15107,8 +15107,8 @@ packages:
       es-errors: 1.3.0
       get-intrinsic: 1.2.4
 
-  /get-tsconfig@4.7.2:
-    resolution: {integrity: sha512-wuMsz4leaj5hbGgg4IvDU0bqJagpftG5l5cXIAvo8uZrqn0NJqwtfupTN00VnkQJPcIRrxYrm1Ue24btpCha2A==}
+  /get-tsconfig@4.7.6:
+    resolution: {integrity: sha512-ZAqrLlu18NbDdRaHq+AKXzAmqIUPswPWKUchfytdAjiRFnCe5ojG2bstg6mRiZabkKfCoL/e98pbBELIV/YCeA==}
     dependencies:
       resolve-pkg-maps: 1.0.0
 
@@ -21740,13 +21740,13 @@ packages:
       - yaml
     dev: true
 
-  /tsx@4.7.1:
-    resolution: {integrity: sha512-8d6VuibXHtlN5E3zFkgY8u4DX7Y3Z27zvvPKVmLon/D4AjuKzarkUBTLDBgj9iTQ0hg5xM7c/mYiRVM+HETf0g==}
+  /tsx@4.17.0:
+    resolution: {integrity: sha512-eN4mnDA5UMKDt4YZixo9tBioibaMBpoxBkD+rIPAjVmYERSG0/dWEY1CEFuV89CgASlKL499q8AhmkMnnjtOJg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
-      esbuild: 0.19.12
-      get-tsconfig: 4.7.2
+      esbuild: 0.23.0
+      get-tsconfig: 4.7.6
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
